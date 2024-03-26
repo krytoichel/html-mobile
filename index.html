@@ -20,16 +20,22 @@
         }
 
         #prediction {
-            font-size: 4vw; /* Используем относительные единицы для размера шрифта */
+            display: inline; /* Отображать элемент как inline */
+            font-size: 3vw; /* Используем относительные единицы для размера шрифта */
             font-weight: bold;
             font-style: italic;
-            border: 1px solid black;
-            padding: 10px;
+            border: 1px solid black; /* Добавьте черную рамку вокруг текста */
+            background-color: black; /* Установите черный фон */
+            color: white; /* Установите белый цвет текста */
         }
 
         #titlee {
+            display: inline;
             font-size: 3vw; /* Используем относительные единицы для размера шрифта */
             font-style: italic;
+            border: 1px solid black; /* Добавьте черную рамку вокруг текста */
+            background-color: black; /* Установите черный фон */
+            color: white; /* Установите белый цвет текста */
         }
     </style>
     <title>Предсказание</title>
@@ -37,6 +43,7 @@
 <body>
     <div class="container">
         <h1 id="titlee">Предсказание:</h1>
+        <p></p>
         <p id="prediction"></p>
     </div>
 
